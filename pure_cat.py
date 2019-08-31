@@ -18,6 +18,7 @@ from sklearn.model_selection import train_test_split
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
+### you will need to download the data from https://www.kaggle.com/c/cat-in-the-dat/data
 df = pd.read_csv(os.path.join(__location__, 'train.csv'))  
 df2 = pd.read_csv(os.path.join(__location__, 'test.csv'))
 
